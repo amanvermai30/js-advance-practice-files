@@ -1,0 +1,13 @@
+#input-box{
+    width: 30%;
+    /* border: 2px solid red; */
+    margin: auto;
+    padding-left: 70px;
+}
+
+#input-box > input,button{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}

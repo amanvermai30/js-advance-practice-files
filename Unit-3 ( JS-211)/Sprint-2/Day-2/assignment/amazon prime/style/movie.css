@@ -1,0 +1,32 @@
+
+#append-container{
+    width: 100%;
+    background-color: rgb(61, 69, 77);
+    letter-spacing: .4rem;
+    font-family: sans-serif;
+    
+}
+#append-container > img{
+    width: 100%;
+    display: block;
+    float: right;
+    height: 1500px;
+}
+.title{
+    position: absolute;
+    font-size: 4rem;
+    color: rgb(240, 154, 42);
+    margin: 300px 0px 0px 40px;
+}
+.release{
+    position: absolute;
+    color: rgb(240, 154, 42);
+    margin:450px 0px 0px 40px;
+    font-size: 4rem;
+}
+.rating{
+    position: absolute;
+    margin: 550px 0px 0px 40px;
+    font-size: 4rem;
+    color: rgb(240, 154, 42);
+}

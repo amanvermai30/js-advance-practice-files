@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar style */
+#navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #2874F0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navbar > div:first-child{
+    width: 20%;
+    height: 100%;
+}
+#navbar > div:last-child{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ h3 > a{
+    text-decoration: none;
+    color: white;
+}
+#navbar > div > img{
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* categories style */
+#categories{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#categories > div > img{
+ height: 70px;
+ border-radius: 50px;
+ display: block;
+ margin: auto;
+}
+#categories > div{
+    text-align: center;
+    cursor: pointer;
+}
+#categories > div > a{
+    text-decoration: none;
+    color: black;
+}
+
+/* slide show style */
+#slide_show{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#slide_show > img{
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* pause btnDiv style */
+#btnDiv{
+    width: 10%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#btnDiv > button{
+    background-color:#2874F0;;
+    width: 80%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* next and pre button style */
+#mainBtn{
+    width: 55%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin:230px 0px 0px 320px;
+}
+.nextPreBtn{
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nextPreBtn > button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(190, 118, 25);
+}
+.nextPreBtn > button:hover{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* add product style */
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+#addProduct{
+    width: 55%;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 30px;
+}
+#addProduct > div{
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: 2px solid red; */
+    align-items: center;
+    padding-left: 70px;
+    padding-top: 20px;
+    border-radius: 10px;
+    
+}
+#addProduct > div > input,select{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+#addProduct > div > label{
+    font-size: 20px;
+}
+#submit:hover{
+  background-color:#2874F0 ;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

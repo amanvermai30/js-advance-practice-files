@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Football Match</title>
+</head>
+<body>
+
+    <div id="navbar">
+        <div class="logo">
+            <img src="https://www.designfreelogoonline.com/wp-content/uploads/2020/10/000668-soccer-02.png" alt="">
+        </div>
+        <div class="filter">
+            <select id="year" onchange="change_year()">
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+            </select>
+            <select id="team-1" onchange="change_team1()">
+                <option value="Barcelona">Barcelona</option>
+                <option value="APOEL Nikosia">APOEL Nikosia</option>
+                <option value="Borussia Dortmund">Borussia Dortmund</option>
+                <option value="Viktoria Plzen">Viktoria Plzen</option>
+                <option value="Chelsea">Chelsea</option>
+                <option value="FC Porto">FC Porto</option>
+            </select>
+            <select name="team-2" id="team-2" onchange="change_team2()">
+                <option value="AC Milan">AC Milan</option>
+                <option value="Zenit St. Petersburg">Zenit St. Petersburg</option>
+                <option value="Arsenal">Arsenal</option>
+                <option value="BATE Borisov">BATE Borisov</option>
+                <option value="Bayer Leverkusen">Bayer Leverkusen</option>
+                <option value="Shakhtar Donetsk">Shakhtar Donetsk</option>
+            </select>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./script/index.js"></script>

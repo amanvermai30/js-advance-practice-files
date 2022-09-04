@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(243, 187, 113);
+    letter-spacing: .2rem;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+
+#taskReminder{
+    width: 80%;
+    /* height: 100px; */
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+#firstT{
+    width: 30%;
+    /* height: 100%; */
+    display: flex;
+    /* border: 2px solid red; */
+    float: left;
+}
+#secondT{
+    width: 50%;
+    /* height: 100%; */
+    /* border: 2px solid green; */
+    float: right;
+
+}
+#firstT > a > h3{
+    font-weight: 800;
+    margin-left: 20px;
+    color: antiquewhite;
+    font-family: sans-serif;
+ }
+ #firstT > a{
+     text-decoration: none;
+ }
+
+ /* container style */
+ #container{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(8,auto);
+    gap: 20px;
+}
+
+.appendDiv{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.appendDiv2 > button{
+    padding: 10px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+
+}
+.appendDiv2 > button:first-child:hover{
+    background-color: rgb(226, 73, 73);
+}
+.appendDiv2 > button:last-child:hover{
+    background-color: rgb(92, 197, 92);
+}

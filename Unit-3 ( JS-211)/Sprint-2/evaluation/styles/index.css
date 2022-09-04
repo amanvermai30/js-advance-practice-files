@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+width: 95%;
+height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#add-money{
+    width: 95%;
+    height: 200px;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+#amount{
+    width: 20%;
+    padding: 7px;
+    margin-bottom: 30px;
+}
+#add-money > button{
+  padding: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  background-color: rgb(205, 137, 49);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+button > a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,75 @@
+/* Give styling here  */
+
+*{
+    font-family: sans-serif;
+}
+
+#navbar{
+    width: 90%;
+    margin: auto;
+    border: 2px solid rgb(174, 162, 162);
+    margin-bottom: 30px;
+}
+#navbar > h1{
+    text-align: center;
+}
+
+#main{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+#inputs-and-others{
+    width: 26%;
+    /* height: 100%; */
+    border: 2px solid rgb(124, 118, 118);
+}
+
+.inside{
+    text-align: center;
+}
+.inside > input{
+width: 70%;
+padding: 10px;
+margin-bottom: 15px;
+font-size: 15px;
+
+}
+.inside > button{
+    padding: 10px;
+    width: 40%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#container{
+    width: 70%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,auto);
+    gap: 15px;
+    padding: 20px;
+    /* border: 2px solid green; */
+}
+.item{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.item >img{
+    height: 130px;
+    display: block;
+    margin: auto;
+    
+}
+.item >button{
+    margin-right: 10px;
+    padding: 7px;
+    color: white;
+    background-color: rgb(228, 167, 88);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

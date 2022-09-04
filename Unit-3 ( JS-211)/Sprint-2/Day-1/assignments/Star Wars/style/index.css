@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(17,11,11);
+    font-family: sans-serif;
+    letter-spacing: .1rem;
+}
+
+#container{
+    width: 45%;
+    margin: auto;
+    margin-top: 170px;
+
+}
+#container > img{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#inputDiv > input{
+    width: 100%;
+    margin-top: 50px;
+    padding: 17px;
+    background-color: #2D2F30;
+    border: 2px solid  #0c0f11;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+#demoDiv{
+    width: 99%;
+    margin-top: -2px;
+    margin: auto;
+}
+.child{
+    border:2px solid #2D2F30 ;
+    background-color: #2D2F30;
+    border-radius: 10px;
+    line-height: 10px;
+    cursor: pointer;
+}
+.child > h3{
+    color: yellow;
+    font-size: 15px;
+
+}
+.child > p{
+    color: white;
+}
+.child > p:first-child{
+    color: white;
+    text-align: right;
+    margin-right: 10px;
+}

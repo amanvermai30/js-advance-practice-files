@@ -1,0 +1,21 @@
+#dataAppend{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,auto);
+    gap: 15px;
+    margin-top: 70px;
+    line-height: 25px;
+}
+#dataAppend > div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    border-radius: 10px;
+}
+#dataAppend > div > img{
+    height: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}

@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+}
+
+#container{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+
+#sidebar{
+    width: 20%;
+    border: 2px solid rgb(203, 190, 190);
+    text-align: center;
+    line-height: 50px;
+}
+#user_img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+#news_result{
+    width:75%;
+    display: grid;
+    grid-template-rows: repeat(30,auto);
+    gap: 15px;
+    margin: auto;
+    
+}
+.news{
+    border: 2px solid rgb(203, 190, 190);
+    line-height: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.news > img{
+    height: 150px;
+}

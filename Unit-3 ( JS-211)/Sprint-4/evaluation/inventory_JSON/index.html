@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <h1>Admin Panel</h1>
+    </div>
+    <!-- 1. Product form input boxes will have IDs as "name", "price", "description", "delivery" & "image" respectively.
+ 2. Add Product button ID :- "add_product".
+ 3. Sort Low to High button ID :- "sort-low-to-high"
+ 4. Sort High to Low button ID :- "sort-high-to-low"
+ 5. Price > 4000 button ID :-  "greater-than"
+ 6. Price < = 4000 button ID :- "less-than"
+ 7. All the products will be appended inside div with ID :- "container".
+ 8. Every product card will have class :- "item",
+ 9. The price in every card will have class :- "product_price" ,
+ NOTE:- Show only price amount in number, no extra tesxt should be there.
+ 10.The delivery in every card will have class :- "product_delivery" 
+ 11. The remove button will have class :- "remove_item",
+ 12. The update button will have class :- "update_price" -->
+
+  <div id="main">
+
+    <div id="inputs-and-others">
+
+      <!-- input part -->
+      <div class="inside">
+        <h2>Add Product</h2>
+        <input type="text" name="" id="name" placeholder="Product Name"><br>
+        <input type="number" id="price" placeholder="Product Price"><br>
+        <input type="text" id="description" placeholder="Product description"><br>
+        <input type="date" id="delivery"><br>
+        <input type="text" id="image" placeholder="Image Url"><br>
+        <button id="add_product" onclick="addProduct()">Add Product</button>
+      </div>
+
+      <!-- sorting part -->
+      <div class="inside">
+        <h2>Sort Based On Price</h2>
+        <button id="sort-low-to-high" onclick="sortLowToHigh()"> Sort Low to High</button><br>
+        <button id="sort-high-to-low" onclick="sortHighToLow()"> Sort High to Low</button>
+      </div>
+
+      <!-- filtering part -->
+      <div class="inside">
+        <h2>Filter By Price</h2>
+        <button id="greater-than" onclick="priceGreaterThan()">Price > 4000</button><br>
+        <button id="less-than" onclick="lessThan()">Price < = 4000</button>
+      </div>
+
+    </div>
+    <div id="container"></div>
+
+  </div>
+
+  </body>
+</html>
+<script src="main.js"></script>

@@ -1,0 +1,28 @@
+*{
+    letter-spacing: .1rem;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 25px;
+}
+
+#container{
+    width: 21%;
+    margin: auto;
+    padding: 50px;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+#container > input,button{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+#container > button:hover{
+    background-color: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

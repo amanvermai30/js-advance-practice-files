@@ -1,0 +1,35 @@
+#mobile_list{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,auto);
+    gap: 15px;
+    margin-top: 50px;
+}
+.mobile{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+}
+.mobile > img{
+    height: 220px;
+    display: block;
+    margin: auto;
+}
+.mobile > button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.mobile > button:hover{
+    cursor: pointer;
+}
+
+#sorting{
+    width: 20%;
+    height: 100px;
+    /* border: 2px solid red; */
+    margin: auto;
+}

@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="icon" href="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/f621585df244e9596dc70a39b579efb1.ico">
+    <script src="https://kit.fontawesome.com/583f110147.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/movie.css">
+    <title>Welcome to Prime Video</title>
+</head>
+<body>
+    <div id="navbar">
+        <div id="nav-left-side">
+            <img src="http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Prime_0.png" alt="">
+        
+            <a href="index.html">
+                <h3>Home</h3>
+            </a>
+            <a href="">
+                <h3>Store</h3>
+            </a>
+            <a href="">
+                <h3>Channels</h3>
+            </a>
+            <a href="">
+                <h3>Categories</h3>
+            </a>
+        </div>
+        <!-- components of navbar -->
+        <div id="nav-right-side">
+            <button>Try for free</button>
+            <input type="text" placeholder="Search" id="query" oninput= "debouncing(1000,getData)">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div id="demo"></div>
+            
+        </div>
+    </div>
+
+    <!-- append data here -->
+    <div id="append-container"></div>
+    
+</body>
+</html>
+<script src="./script/index.js"></script>
+<script src="./script/movie.js"></script>

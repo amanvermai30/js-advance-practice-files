@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/store.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Store</title>
+  </head>
+  <body>
+    <!-- On store page append all mobiles inside div with Id :- "mobile_list",
+Each mobile card will have class :- "mobile"
+every remove button will have class :- "remove"
+Sort from low to high button Id:- "sort_lth"
+sort from high to low button Id:- "sort_htl"
+select tag fro filtering will have Id:- "select_filter"
+Must provide these brands as options :- 
+a. apple
+b. oneplus
+c. nokia 
+// Do not add extra text to price, only number should be there as shown below
+// Price: 60000 (wrong)
+// 60000 (Right)
+
+-->
+
+<!-- this is navbar -->
+<nav id="navbar">
+
+  <div id="home">
+    <h3>
+      <a href="index.html">Home</a>
+    </h3>
+  </div>
+
+  <div id="store">
+    <h3>
+      <a href="store.html">Store</a>
+    </h3>
+  </div>
+</nav>
+
+<div id="sorting">
+    <button id="sort_lth">Sort from low to high</button>
+    <button id="sort_htl" onclick="sort_htl()">sort from high to low</button>
+</div>
+
+<div id = "mobile_list" >
+  <!-- append here -->
+</div>
+
+  </body>
+</html>
+<script src="./scripts/store.js" type="module"></script>

@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/flipkart.png">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Flipkart Inventory</title>
+</head>
+
+<body>
+    <!-- navbar part -->
+    <div id="navbar"></div>
+
+    <!-- categories part -->
+    <div id="categories"></div>
+
+    <!-- stop and continue btn -->
+    <div id="btnDiv">
+        <button id="play">Stop</button>
+    </div>
+
+    <!--  pre and next button for slide show -->
+    <div id="mainBtn">
+        <div class="nextPreBtn">
+            <button id="preBtn">
+                < </button>
+        </div>
+
+        <div class="nextPreBtn">
+            <button id="nextBtn"> > </button>
+        </div>
+
+    </div>
+
+
+    <!-- slide show part -->
+    <div id="slide_show"></div>
+
+    <!-- add your product part -->
+    <h2>Add Product</h2>
+    <div id="addProduct">
+        <div>
+            <label for="">Name</label><br>
+            <input type="text" placeholder="name" id="name"><br>
+            <label for="">Price</label><br>
+            <input type="number" placeholder="price" id="price"><br>
+            <label for="">Image</label><br>
+            <input type="text" placeholder="image" id="image"><br>
+            <label for="">Categories</label><br>
+            <select name="" id="categories_op">
+                <option value="Trousers">Trousers</option>
+                <option value="Shoes">Shoes</option>
+                <option value="Shirts">Shirts</option>
+                <option value="Sherwani">Sherwani</option>
+            </select><br>
+            <input type="submit" name="" id="submit">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="./script/index.js" type="module"></script>

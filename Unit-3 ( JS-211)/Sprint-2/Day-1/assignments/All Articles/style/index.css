@@ -1,0 +1,38 @@
+
+
+h1{
+    color: rgb(121, 121, 215);
+}
+#btnDiv > button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(121, 121, 215) ;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+#container{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,auto);
+    gap: 15px;
+}
+#container > div{
+    padding: 10px;
+    border: 2px solid rgb(192, 180, 180);
+    border-radius: 10px;
+}
+
+.readMore{
+    color: blue;
+
+   
+}
+.readMore:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}

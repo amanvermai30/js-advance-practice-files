@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(17,11,11);
+    font-family: sans-serif;
+    letter-spacing: .1rem;   
+}
+h1{
+  color: #ecd014;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+#container{
+    width: 45%;
+    height: 200px;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+/* 
+this style is for info 1 */
+.info1{
+    width: 40%;
+    border: 2px solid green;
+    text-align: center;
+    margin-right: 50px;
+    border: 2px solid #ecd014;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ecd014;
+ 
+}
+.info1:hover{
+    border: 2px solid white;
+    color: white;
+}
+.info1 > h2{
+    color: #ecd014;
+}
+.info1 > h2:hover{
+    color: white;
+}
+
+
+/* 
+this style is for info 2  */
+.info2{
+    width: 40%;
+    border: 2px solid green;
+    text-align: center;
+    margin-right: 50px;
+    border: 2px solid #ecd014;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ecd014;
+ 
+}
+
+.info2:hover{
+    border: 2px solid white;
+    color: white;
+}
+.info2 > h2{
+    color: #ecd014;
+}
+.info2 > h2:hover{
+    color: white;
+}
+
+
+button{
+    display: block;
+    margin: auto;
+    width: 150px;
+    padding: 20px;
+    margin-top: 70px;
+    background-color: rgb(17,11,11);
+    color: #ecd014;
+    border: 2px solid #ecd014;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    border: 2px solid white;
+    color: white;
+}
+div+a{
+    text-decoration: none;
+}
